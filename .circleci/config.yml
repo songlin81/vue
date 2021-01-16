@@ -6,7 +6,12 @@ jobs:
       - image: circleci/node:15.1
     steps:
       - checkout
-      - node/install-packages
+      - run:
+          name: update-npm
+          command: "sudo npm install -g npm@latest"
+       - run:
+          name: install-npm-wee
+          command: npm install     
       - run:
           name: Run tests
           command: npm test
