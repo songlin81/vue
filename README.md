@@ -16,8 +16,14 @@
 - % git status
 - % git commit -am "init check in"
 - % git remote set-url origin https://songlin81:password@github.com/songlin81/vue.git
-- % git push -u origin master   
+- % git push -u origin master
+- % git branch -a
+- % git branch -d circleci-project-setup
 
 ## CircleCI
-- Log in with GitHub
+- Log in with GitHub, 
 - git
+
+## Fix
+
+
