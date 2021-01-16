@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: install-npm-wee
+          name: install npm packages
           command: npm install     
       - run:
           name: tests
