@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="6.084">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-01-16T12:39:24" time="2.127" tests="1">
+    <testcase classname=" add VAT tax rate 10% to original price" name=" add VAT tax rate 10% to original price" time="0.003">
+    </testcase>
+  </testsuite>
+</testsuites>
