@@ -25,4 +25,6 @@
 - % git branch -a
 - % git branch -d circleci-project-setup
 - % git checkout -b colab
-- 
+- Comment off test "add VAT tax rate 15% to original price"
+- % git push -u origin colab
+- Raise 'Pull Request' and 'All checks have failed' will be observed by CircleCI, therefore 'Close pull request'
